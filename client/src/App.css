@@ -1,0 +1,76 @@
+.auth-page,
+.home-page {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.auth-card,
+.home-card {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 40px 32px;
+  width: 100%;
+  max-width: 360px;
+  text-align: center;
+}
+
+.auth-card h1,
+.home-card h1 {
+  font-size: 22px;
+  margin: 0 0 8px;
+}
+
+.auth-subtitle,
+.home-subtitle {
+  color: #666;
+  margin: 0 0 24px;
+  font-size: 14px;
+}
+
+.google-button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.notice {
+  font-size: 13px;
+  color: #444;
+  background: #f0f0f2;
+  border-radius: 6px;
+  padding: 8px 12px;
+  margin-bottom: 16px;
+}
+
+.notice-error {
+  color: #9b1c1c;
+  background: #fdecec;
+}
+
+.user-email {
+  font-weight: 500;
+  margin: 0 0 28px;
+  word-break: break-all;
+}
+
+.logout-button {
+  border: 1px solid #d0d0d0;
+  background: #fff;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-size: 14px;
+  transition: background 0.15s;
+}
+
+.logout-button:hover {
+  background: #f5f5f5;
+}
+
+.logout-button:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
